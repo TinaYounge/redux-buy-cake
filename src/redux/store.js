@@ -4,8 +4,8 @@ import cakeReducer from "./cake/cakeReducer";
 import IceReduce from "./icecream/IceReduce";
 
 const rootReducer = combineReducers({
-  cakeReducer,
-  IceReduce,
+  cake: cakeReducer,
+  ice: IceReduce,
 });
 
 const store = createStore(rootReducer);
